@@ -1,11 +1,9 @@
 package com.kamaletdinov.task8.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Component
-@Data
 @Entity
 @Table(name = "users")
 public class User {
